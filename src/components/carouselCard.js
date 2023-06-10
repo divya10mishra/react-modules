@@ -1,12 +1,13 @@
 import React from 'react'
 
-function carouselCard({details}) {
-    // console.log(details)
-    // [picture,title] = details
+function carouselCard({details,ind}) {
     return (
-        <section>
-            <img src={details.picture} alt={details.title}/>
-           <p>{details.title}</p>
+        <section style={{
+            backgrounColor:'blue',
+            padding:'5%'
+        }}>
+            <img src={details[ind]?.picture} alt={details[ind]?.title}/>
+           <p>{details[ind]?.title}</p>
         </section>
     )
 }

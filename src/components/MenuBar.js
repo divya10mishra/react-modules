@@ -2,9 +2,9 @@ import React from 'react'
 
 function MenuBar() {
     return (
-        <div>
-           Menu 
-        </div>
+        <section>
+           Menu / Sidebar
+        </section>
     )
 }
 

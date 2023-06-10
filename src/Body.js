@@ -4,8 +4,7 @@ import Carousel from './components/carousel'
 function Body() {
     return (
         <div>
-            
-            <Carousel/>
+            Body
         </div>
     )
 }

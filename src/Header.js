@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 
 function Header(){
   return <> 
@@ -8,7 +9,13 @@ function Header(){
     fontSize:'20px',
     padding:'20px',
     boxShadow: 'inset 5em 1em #FBEEC1'
-  }}>NavBar</header>
+  }}>
+    <div>NavBar</div>
+    <ul style={{display:'flex', justifyContent:'space-evenly'}}>
+    <li><Link to='/carousel'>Carousel</Link></li>
+    <li><Link to='/sidebar'>Sidebar</Link></li>
+    </ul>
+  </header>
  
   </>
 }
